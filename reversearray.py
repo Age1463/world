@@ -1,2 +1,4 @@
 a=[1,2,3,4]
-print(a[-1:])
+b=len(a)
+for i in range(b):
+    print(a[b-i-1])
